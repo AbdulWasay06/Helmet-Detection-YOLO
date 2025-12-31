@@ -1,0 +1,26 @@
+# 1. Virtual Environment (Very important - don't upload this!)
+venv/
+ENV/
+env/
+
+# 2. Python Cache (Speeds up execution but is junk for Git)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 3. YOLO/Ultralytics specific junk
+runs/
+datasets/
+*.pt
+!weights/best.pt  # EXCEPTION: We want to keep your trained model!
+
+# 4. OS specific files
+.DS_Store
+Thumbs.db
+
+# 5. VS Code settings
+.vscode/
+
+
+# Block all large videos in the traffic folder
+traffic.mp4/*.mp4
