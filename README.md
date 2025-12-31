@@ -32,15 +32,19 @@ Since the custom model was specialized in "Helmet" detection, I implemented **Ex
 📊 Results
 The system maintains high stability even in varied lighting conditions due to the implemented Frame Memory logic.
 
-**Status            Visual Indicator                   Condition**
-SAFE              Blue Bounding Box           Helmet detected on person
-VIOLATION         Red Bounding Box            No Helmet detected on person
+### 📊 Detection Logic
 
+| Status | Visual Indicator | Condition |
+| :--- | :--- | :--- |
+| **SAFE** | Green Bounding Box | Helmet detected on person |
+| **VIOLATION** | Red Bounding Box | No Helmet detected on person |
 
-## 📸OUTPUTS:
+# 📸 OUTPUTS:
 ### Project Results
-<img src="media/safe_screenshot1.png" width="400">
-<img src="media/violation_screenshot.png" width="400">
+
+| Safe Detection | Violation Detected |
+| :---: | :---: |
+| <img src="media/safe_screenshot1.png" width="350"> | <img src="media/violation_screenshot.png" width="350"> |
 -----------------------------------------------------------
 
 ## 📥 Installation & Setup
@@ -66,3 +70,6 @@ Run the main control center to access the system: python main.py
 **Option 1:** Launches the Live Webcam Audit.
 
 **Option 2:** Runs the system on pre-recorded traffic footage.
+
+---
+## 👤 Developed by **Mohd Abdul Wasay**
